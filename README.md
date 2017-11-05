@@ -1,3 +1,9 @@
-# ITM
+  # Who am I ?
+Nour AL-HABASH, a French engineering student, specialized in Information Technology and Electrical and Computer Engineering.
+I'm actually a graduate student at Illinois Institute of Technology.
 
-Hello, this is the GitHub repository that I will use for my ITM-related work at IIT.
+  # What do I look like ?
+This :
+![Nour](images/myphoto.jpg)
+
+
