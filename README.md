@@ -22,8 +22,6 @@ I probably have some qualities, but they are hidden behind the huge default I ha
 When I am there, I do work with certain passion though !
 
 
-# What is this ?
-
-The Github repository I will use for my work here at IIT.
+# Git Tutorial ?
 
 ![CodeAcademyGithub](images/githubcodeacademy.PNG)
