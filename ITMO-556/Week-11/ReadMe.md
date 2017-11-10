@@ -6,24 +6,24 @@ declare -a itemARRAY
 
 #!/bin/bash
 
-declare -a dirarr
-mapfile -t dirarr < <(ls -l ~)
-echo "${dirarr[2]}"
-echo "${dirarr[3]}"
+declare -a dirarr   
+mapfile -t dirarr < <(ls -l ~)   
+echo "${dirarr[2]}"   
+echo "${dirarr[3]}"   
 
 # Question 3
 
 #!/bin/bash
 
-declare -a dirarr
-mapfile -t dirarr < <(ls -l ~)
+declare -a dirarr   
+mapfile -t dirarr < <(ls -l ~)   
 
-LENGTH=${#dirarr[@]}
+LENGTH=${#dirarr[@]}   
 
-for ((i=0; i<${LENGTH}; i++))
-do
-        echo ${dirarr[$i]}
-done
+for ((i=0; i<${LENGTH}; i++))   
+do  
+        echo ${dirarr[$i]}  
+done   
 
 # Question 4
 
