@@ -11,6 +11,8 @@ mapfile -t dirarr < <(ls -l ~)
 echo "${dirarr[2]}"   
 echo "${dirarr[3]}"   
 
+![Q2](images/Q2.png)
+
 ## Question 3
 
 #!/bin/bash
