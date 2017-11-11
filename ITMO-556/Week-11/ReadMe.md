@@ -1,3 +1,5 @@
+# **LAB 8, Week-11** - Nour AL-HABASH
+
 ## Question 1:
 
 declare -a itemARRAY
