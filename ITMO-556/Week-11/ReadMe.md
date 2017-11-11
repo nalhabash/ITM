@@ -103,4 +103,4 @@ echo "$@ are all the parameters"
 
 ## Question 12
 
-5 * * * * ~/lab8.sh &>~/Documents/my.log
+"5 * * * * ~/lab8.sh" &>~/Documents/my.log
