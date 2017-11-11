@@ -11,14 +11,15 @@ mapfile -t dirarr < <(ls -l ~)
 echo "${dirarr[2]}"   
 echo "${dirarr[3]}"   
 
-![Q2](images/Q2.png)
+![Q2](images/Q2.PNG)
 
 ## Question 3
 
 #!/bin/bash
 
 declare -a dirarr   
-mapfile -t dirarr < <(ls -l ~)   
+mapfile -t dirarr < <(ls -l ~) 
+
 
 LENGTH=${#dirarr[@]}   
 
@@ -26,6 +27,7 @@ for ((i=0; i<${LENGTH}; i++))
 do  
         echo ${dirarr[$i]}  
 done   
+![Q3](images/Q3.PNG)
 
 ## Question 4
 
@@ -42,6 +44,8 @@ else
         echo "There is a problem, the folder doesn't exist !"  
 fi  
 
+![Q5](images/Q5.PNG)
+
 ## Question 6
 
 Same as before, but with "if [ -a $1 ]" instead.
@@ -57,6 +61,8 @@ then
         exit 1  
 fi  
 
+![Q7](images/Q7.PNG)
+
 ## Question 8
 
 if [ -x $1  ]  
@@ -66,10 +72,14 @@ else
         echo "ERROR you can't execute this file !!!"  
 fi  
 
+![Q8](images/Q8.PNG)
+
 ## Question 9
 
 Same as before ! But with this change : 
 "if [ -x ~/topsecret/$1  ]"
+
+![Q9](images/Q9.PNG)
 
 ## Question 10
 
@@ -80,11 +90,16 @@ else
         echo "$1 is neither a file nor a directory !!!"  
 fi  
 
+![Q10](images/Q10.PNG)
+
+
 ## Question 11 
 
 echo "$0 is the command used"  
 echo "$# is the number of parameters"  
 echo "$@ are all the parameters"  
+
+![Q11](images/Q11.PNG)
 
 ## Question 12
 
