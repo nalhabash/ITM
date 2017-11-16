@@ -57,22 +57,48 @@ journalctl \__COMM=sshd
 journalctl --since=yesterday _PID=1
 ![Q10](images/Q10.PNG)
 
-
-## Question 11
-
-## Question 12
-
-## Question 13
-
-## Question 14
-
-## Question 15
-
-## Question 16
-
-## Question 17
-
-## Question 18
+ ## Question 11
  
+journalctl -b
 
+ ## Question 12
+ 
+This file: /etc/systemd/journald.conf  
+There, we need to change the value of Storage to 'volatile'.
+
+ ## Question 13
+ 
+System disk's size is 17G. Therefore, we must change the values in journald.conf as follows:
+SystemMaxUse=3.4G  
+RuntimeMaxUse=5.1G
+
+
+ ## Question 14
+ 
+0 2 * * 0 mysqldump -xml -u root world City
+
+ ## Question 15
+ 
+* * 1 * * mysqldump -xml -u root world City
+
+ ## Question 16
+ 
+/45 * * * * mysqldump -xml -u root world City
+
+ ## Question 17
+ 
+45 * * * 0 mysqldump -xml -u root world City
+
+ ## Question 18
+  
+45 2 * * 2 mysqldump -xml -u root world City
+ 
+## Question 19
+
+Assuming the accounting group and the txt file are created:  
+sudo chgrp accounting todo-list.txt
+
+## Question 20
+
+sudo chown root:root todo-list.txt
 
