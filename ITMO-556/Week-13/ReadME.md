@@ -83,7 +83,7 @@ RuntimeMaxUse=5.1G
 
  ## Question 15
  
-* * 1 * * mysqldump -xml -u root world City
+\* \* 1 * * mysqldump -xml -u root world City
 
  ## Question 16
  
