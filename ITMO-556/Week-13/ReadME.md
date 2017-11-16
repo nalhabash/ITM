@@ -44,16 +44,19 @@ then add "mysql-admin ALL=(ALL) NOPASSWD:/usr/bin/mysql ALL"
 ## Question 8
 
 Yes there is an error. Because journalctl isn't a file but a command, and the tail command takes a file as an argument.  
-![Q](images/Q.PNG)
+![Q8](images/Q8.PNG)
 
 
 ## Question 9
 
 journalctl \__COMM=sshd
+![Q9](images/Q9.PNG)
 
 ## Question 10
 
 journalctl --since=yesterday _PID=1
+![Q10](images/Q10.PNG)
+
 
 ## Question 11
 
