@@ -37,7 +37,6 @@ then add "mysql-admin ALL=(ALL) NOPASSWD:/usr/bin/mysql ALL"
 
 Yes there is an error. Because journalctl isn't a file but a command, and the tail command takes a file as an argument.  
 
-
 ## Question 9
 
 journalctl \__COMM=sshd
@@ -48,19 +47,40 @@ journalctl --since=yesterday _PID=1
 
 ## Question 11
 
+journalctl -b
+
 ## Question 12
+
+This file: /etc/systemd/journald.conf  
+There, we need to change the value of Storage to 'volatile'.
 
 ## Question 13
 
+System disk's size is 17G. Therefore, we must change the values in journald.conf as follows:
+SystemMaxUse=3.4G  
+RuntimeMaxUse=5.1G
+
+
 ## Question 14
+
+0 2 * * 0 mysqldump -xml -u root world City
 
 ## Question 15
 
+* * 1 * * mysqldump -xml -u root world City
+
 ## Question 16
+
+/45 * * * * mysqldump -xml -u root world City
 
 ## Question 17
 
+45 * * * 0 mysqldump -xml -u root world City
+
 ## Question 18
  
+45 2 * * 2 mysqldump -xml -u root world City
 
+## Question 19
 
+chown
