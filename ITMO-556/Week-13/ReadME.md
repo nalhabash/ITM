@@ -60,17 +60,21 @@ journalctl --since=yesterday _PID=1
  ## Question 11
  
 journalctl -b
+![Q11](images/Q11.PNG)
 
  ## Question 12
  
 This file: /etc/systemd/journald.conf  
 There, we need to change the value of Storage to 'volatile'.
+![Q12](images/Q12.PNG)
+
 
  ## Question 13
  
 System disk's size is 17G. Therefore, we must change the values in journald.conf as follows:
 SystemMaxUse=3.4G  
 RuntimeMaxUse=5.1G
+![Q13](images/Q13.PNG)
 
 
  ## Question 14
@@ -97,8 +101,10 @@ RuntimeMaxUse=5.1G
 
 Assuming the accounting group and the txt file are created:  
 sudo chgrp accounting todo-list.txt
+![Q19](images/Q19.PNG)
 
 ## Question 20
 
 sudo chown root:root todo-list.txt
+![Q20](images/Q20.PNG)
 
