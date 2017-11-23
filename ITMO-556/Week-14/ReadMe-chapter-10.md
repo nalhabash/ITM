@@ -2,15 +2,18 @@
 
 ## Question 1:
 
+First downloaded the tarball and unziped it. Then following Install steps I realized I need APR then PRCE libraries so I installed their packages with APT.
 
 
-## Question :
+## Question 2:
 
-## Question :
+## Question 3:
 
-## Question :
+## Question 4:
 
-## Question :
+## Question 5:
+
+sudo apt-get update
 
 ## Question :
 
