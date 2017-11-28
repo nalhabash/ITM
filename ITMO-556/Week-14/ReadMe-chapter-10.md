@@ -57,13 +57,15 @@ Then, in the denyhosts directory: sudo python setup.py install
 
 ## Question 10:
 
-## Question :
+I installed the setup.py in the rgkit directory. Needed me to install the python-setuptools package first.  
+However when I tried to run the 2 bots in the game there was an error I couldn't solve:
 
-## Question :
+## Question 11:
 
-## Question :
 
-## Question :
 
-## Question :
+## Question 12:
+
+## Question 13:
+
 
