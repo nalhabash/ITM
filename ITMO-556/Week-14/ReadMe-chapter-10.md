@@ -62,9 +62,17 @@ However when I tried to run the 2 bots in the game there was an error I couldn't
 
 ## Question 11:
 
+There I tried installing pandoc from the software manager, without using the shell. But in the software manager clicking on "installing" didn't do anything. 
+So I did it with the terminal after all.
+Then I had quite a lot of problems installing the Tex live packages. Mainly, it took too much time and I think the installation froze on the texlive-latex-extra package, since the terminal didn't change after 5 hours.
+
+
+So when I tried the command in displayed an error, and I couldn't display the book in PDF. 
 
 
 ## Question 12:
+
+sudo yum install httpd php php-common php-cli php-fpm
 
 ## Question 13:
 
