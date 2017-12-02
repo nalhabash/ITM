@@ -83,11 +83,32 @@ Here's the result displayed (it's actually better to search for vb.* instead of 
 
 ## Question 13
 
+![](images/13.png)
 
+## Question 14
 
+cat /proc/cpuinfo | grep flags
+![](images/14.png)
 
+## Question 15
 
+![](images/15.png)
 
+## Question 16
+
+![](images/16.png)
+
+## Question 17
+
+![](images/17.png)
+
+## Question 18
+
+![](images/18.png)
+
+## Question 19
+
+![](images/19.png)
 
 
 
