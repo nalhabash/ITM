@@ -57,7 +57,31 @@ So I changed to ubuntu and did this:
 
 ## Question 9
 
+The fact that the values are blank might be due to me changing to a vey recently newly installed ubuntu, with a lot of packages not installed..
+![](images/9.png)
 
+## Question 10
+
+Here's the short C code I did, compiled and executed:
+![](images/10-1.png)
+
+The low priority test of the code:
+![](images/10-2.png)
+
+The high priority test of the code:
+![](images/10-3.png)
+
+## Question 11
+
+![](images/11.png)
+
+## Question 12
+
+Here's the result displayed (it's actually better to search for vb.* instead of vb*)
+
+![](images/12.png)
+
+## Question 13
 
 
 
