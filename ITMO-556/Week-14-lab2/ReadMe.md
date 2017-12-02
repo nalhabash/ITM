@@ -73,6 +73,7 @@ The high priority test of the code:
 
 ## Question 11
 
+ps -ef to display the list. (Yes, killing the processes did close the browser, I took the screenshot afterwards)
 ![](images/11.PNG)
 
 ## Question 12
