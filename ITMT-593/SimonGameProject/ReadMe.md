@@ -13,6 +13,10 @@ The project follows all of the requirements, such as using 4 LEDs, a LCD screen 
 
 Here's a fritzing sketch of my project: 
 
-![Nour](images/sketch.png)
+![sketch](images/sketch.PNG)
+
+
+## How it works
+
 
 
