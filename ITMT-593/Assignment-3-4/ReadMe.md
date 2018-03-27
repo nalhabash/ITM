@@ -6,7 +6,10 @@ Here are 2 pictures of the final setup and the display on the web server.
 ![Nour](images/picture1.jpg)
 ![Nour](images/picture2.jpg)
 
-The goal was to
+The goal was to measure the conductivity of water in a certain cup using the 2 ends of the probe. The tension value (between 0 and 5 V) allows us to calculate the conductivity value. Then we had several goals:
++ Store the data in a SD card
++ Make a web server to display the data from a browser
++ Send the data using a bluetooth dongle to display it on a receiver (in this case my android phone).
 
 Here's a fritzing sketch of my project: 
 
