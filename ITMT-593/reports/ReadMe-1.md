@@ -2,6 +2,7 @@
 From March 6th, 2018.
 
 The Meet Up's purpose was to highlight the legal challenges that come with the creation and operation of a company that wishes to enter the commercial space industry.  
+The speaker was Charles Mudd, a lawyer and founder of a law firm that represents such companies.
 This industry has been booming in the recent years (with SpaceX as the most well-known example). But his sector have specific legal problematics that other transportation and travel industries don't.
 
 Several levels of legislation apply to this industry:
