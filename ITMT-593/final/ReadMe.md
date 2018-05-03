@@ -26,14 +26,14 @@ As you can see there still is a bluetooth module. It sends a "victory" message (
 The score is the time in seconds it takes the player to collect all yellow orbs. The game is quite simple, as you can see.
 Here's a picture of the game UI:
 
-![](images/unity1.png)
+![](images/unity1.PNG)
 
 And now a picture of the game once all orbs are collected ! (with the score displayed in the upper right corner, and a Victory message that displays).
 
-![](images/unity2.png)
+![](images/unity2.PNG)
 
 Now I also wanted to save the score and the player name (yes, the player can input his/her name in the script attributes). At first, I wanted to save them in an SD card, like old gaming consoles used to do with memory cards. But instead, I save them in a stuff.txt file on the hard drive (like newer consoles who save data in a hard drive).
 Here's how it looks like:
 
-![](images/unity3.png)
+![](images/unity3.PNG)
 
